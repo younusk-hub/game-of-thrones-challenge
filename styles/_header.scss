@@ -1,0 +1,16 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+    color: white;
+    background-color: #860C09;
+
+    .house-options {
+        width: 40%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+}

@@ -1,0 +1,29 @@
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    
+    &__card {
+        width: 300px;
+        height: auto;
+        padding: 10px;
+        margin: 20px;
+        border: 2px solid black;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: center;
+
+        h2 {
+            padding: 10px
+        }
+
+        &__image {
+            width: 80%;
+        }
+
+        &__content {
+            padding: 10px
+        }
+    }
+}

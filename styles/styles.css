@@ -1,0 +1,45 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px;
+  color: white;
+  background-color: #860C09;
+}
+header .house-options {
+  width: 40%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.card-container__card {
+  width: 300px;
+  height: auto;
+  padding: 10px;
+  margin: 20px;
+  border: 2px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+}
+.card-container__card h2 {
+  padding: 10px;
+}
+.card-container__card__image {
+  width: 80%;
+}
+.card-container__card__content {
+  padding: 10px;
+}/*# sourceMappingURL=styles.css.map */
